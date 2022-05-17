@@ -16,6 +16,7 @@ body{
     #titulo{
 color: white;
     font-family:'Roboto Slab', serif;
+    padding-left: 50px;
     }
 
     #nav{
@@ -185,3 +186,24 @@ color: white;
         opacity: 0.3;
         text-align: center;
     }
+    @media screen and (max-width:768px) {
+        .col{
+            padding-left: 160px;
+            text-align: center;
+        }
+        .col:nth-child(even){
+          transform:translateX(50px);
+           text-align: start;
+        }
+        .pie-pagina{
+            width:800px ;
+        }
+    }
+    @media screen and (max-width:1024px){
+        .col{
+            text-align: center;
+        }
+    }
+       
+        
+    
