@@ -16,7 +16,6 @@ body{
     #titulo{
 color: white;
     font-family:'Roboto Slab', serif;
-    padding-left: 50px;
     }
 
     #nav{
@@ -37,10 +36,9 @@ color: white;
     #nav_enlace{
         text-decoration: none;
         color: white;
-        font-family:'Roboto Slab', serif;
     }
     header{
-        background-color:black;
+        background-color: black;
         padding: 10px;
         height: 80px;
         display: flex;
@@ -49,84 +47,18 @@ color: white;
         align-items: center;
         min-height: 100px;
           }
-          .row{
-              display: flex;
-              flex-wrap: wrap;
-          }
-          .col{
-            width: 500px;
-          }
-          .col{
-              color: white;
-              text-align: center;
+          .fasefinal{
+              padding-left: 150px;
+              padding-bottom: 100px;
           }
           .titulo2{
               text-align: center;
               color: white;
           }
-         .lusail-tex{
-             color: white;
-             text-align: center;
-         }
-         .titulo-lusail{
-             color: white;
-             text-align: center;
-         }
-         .titulo-aljanoub{
-             text-align: center;
-             color: white;
-         }
-         .titulo-974{
-             color: white;
-             text-align: center;
-         }
-         .titulo-thumama{
-             color: white;
-             text-align: center;
-         }
-         .titulo-khalifa{
-             color: white;
-             text-align: center;
-         }
-         .titulo-fundacion{
-             color: white;
-             text-align: center;
-         }
-         .titulo-bin{
-             color: white;
-             text-align: center;
-         }
-         .titulo-albayt{
-             color: white;
-             text-align: center;
-         }
-          .janotex{
-              color: white;
-          }
-          .tex974{
-              color: white;
-          }
-          .thumamatex{
-              color: white;
-          }
-          .khalifatex{
-            color: white;
-          }
-          .ciudadtex{
-          color: white;
-          }
-          
-          .bintex{
-              color: white;
-          }
-          
-          .baitex{
-              color: white;
-          }
           footer{
             width: 100%;
             padding:2rem 8% ;
-            background-color: #0e0e0e;
+            background-color: black;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -186,24 +118,109 @@ color: white;
         opacity: 0.3;
         text-align: center;
     }
-    @media screen and (max-width:768px) {
-        .col{
-            padding-left: 160px;
-            text-align: center;
-        }
-        .col:nth-child(even){
-          transform:translateX(50px);
-           text-align: start;
-        }
+    .brasil{
+        text-align: center;
+        color: white;
+    }
+    .brasil-ft{
+        transform: translateX(300px);
+    }
+    .bratex{
+        color: white;
+        text-align: center;
+        font-size: 20px;
+    }
+    .alemania{
+        color: white;
+        text-align: center;
+    }
+    .alemania-ft{
+        transform: translateX(300px);
+    }
+    .aletex{
+        color: white;
+        text-align: center;
+        font-size: 20px;
+    }
+    .italia{
+        color: white;
+        text-align: center;
+    }
+    .italia-ft{
+        transform: translateX(300px);
+    }
+    .itatex{
+        color: white;
+        text-align: center;
+        font-size: 20px;
+    }
+    @media screen and (max-width:768px){
         .pie-pagina{
-            width:800px ;
+         width: 1000px;
         }
+        header{
+            width: 1000px;
+        }
+        .titulo2{
+            transform: translateX(100px);
+        }
+        .brasil{
+            transform: translateX(100px);
+        }
+        .brasil-ft{
+            transform: translateX(120px);
+        }
+        .bratex{
+            transform: translateX(100px);
+        }
+        .alemania{
+            transform: translateX(100px);
+        }
+        .alemania-ft{
+            transform: translateX(120px);
+        }
+        .aletex{
+            transform: translateX(100px);
+        }
+        .italia{
+            transform: translateX(100px);
+        }
+        .italia-ft{
+            transform: translateX(120px);
+        }
+        .itatex{
+            transform: translateX(100px);
+        }
+        
     }
     @media screen and (max-width:1024px){
-        .col{
-            text-align: center;
+        .brasil-ft{
+            transform: translateX(150px);
+        }
+        .alemania-ft{
+            transform: translateX(150px);
+        }
+        .italia-ft{
+            transform: translateX(150px);
         }
     }
-       
-        
-    
+    @media screen and (max-width:320px){
+        .brasil{
+            transform: translateX(340px);
+        }
+        .bratex{
+            transform: translateX(340px);
+        }
+        .alemania{
+            transform: translateX(340px);
+        }
+        .aletex{
+            transform: translateX(340px);
+        }
+        .italia{
+            transform: translateX(340px);
+        }
+        .itatex{
+            transform: translateX(340px);
+        }
+    }

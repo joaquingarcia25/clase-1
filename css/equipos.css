@@ -7,14 +7,13 @@
     box-sizing:border-box;
     
     }
-        body{
+        body{ 
         font-family:'Roboto Slab', serif;
         margin: 0;
         height: 16px;
         background-image: url(data:image/jpeg;base64,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)
-        }
+    }
         #titulo{
-
         color: white;
         font-family:'Roboto Slab', serif;
         }
@@ -64,17 +63,18 @@
                 transform: translatey(-200px);
             }
             .grid{
-                
                 padding: 1rem;
                 min-height: 500px;
                 color: white;
                 display: grid;
-                grid-template-columns: 20% 20% 20% ;
+                grid-template-columns: 20% 20% 20% 20% ;
                 grid-template-rows: 20% 20% ;
                 justify-items: stretch;
                 align-content: stretch;
                 justify-content: center;
                 gap: 20px;
+                position: relative;
+                top:80px ;
             }
             .griduno{
                 background-color: darkblue;
@@ -82,18 +82,16 @@
             .gridos{
                 background-color: lightblue;
             }
-            .gridtres{
-                background-color: yellow;
-            }
+            
             .gridcuatro{
                 background-color: white;
             }
             .gridcinco{
-                background-color: darkred;
+                background-color: yellow;
             }
         .brasil{
             position: absolute ;
-            top: 40%;
+            top: 8%;
             padding-left: 73px;
         }
         .bratex{
@@ -103,7 +101,7 @@
         }
         .argentina{
             position: absolute ;
-            top: 40%;
+            top: 8%;
             padding-left: 75px;
         }
         .argtex{
@@ -112,20 +110,10 @@
             justify-content: center;
             align-items: center;
         }
-        .ecuador{
-            position: absolute ;
-            top: 40%;
-            padding-left: 75px;
-        }
-        .ecutex{
-            align-items: flex-start;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+       
         .uruguay{
             position: absolute ;
-            top: 58%;
+            top: 8%;
             padding-left: 75px;
         }
         .urutex{
@@ -134,13 +122,13 @@
             align-items: center;
             color: lightblue;
         }
-        .peru{
+        .ecuador{
            position: absolute ;
-            top: 58%;
+            top: 8%;
             padding-left: 70px;
             
         }
-        .perutex{
+        .ecutex{
             display: flex;
             justify-content: center;
             align-items: center;
@@ -263,6 +251,7 @@
             color: black;
         }
         .España{
+            position: absolute;
             top: 25%;
             transform: translatex(75px);
         }
@@ -343,10 +332,85 @@
             justify-content: center;
             align-items: center;
         }
+        .gridtres{
+            padding: 1rem;
+            min-height: 500px;
+            color: white;
+            display: grid;
+            grid-template-columns: 20% 20% 20% 20% ;
+            grid-template-rows: 20% 20% 20% 20% ;
+            justify-items: stretch;
+            align-content: stretch;
+            justify-content: center;
+            gap: 20px;
+            transform: translateY(-50px);
+        }
+        .afc{
+            color: white;
+            text-align: center;
+            transform: translateY(-150px);
+        }
+        .grid_dnueve{
+            background-color: darkgreen;
+        }
+        .grid_veinte{
+            background-color: darkred;
+        }
+        .grid_vuno{
+            background-color: darkgreen;
+        }
+        .grid_vdos{
+            background-color: white;
+        }
+        .grid_vtres{
+            background-color: white;
+        }
+        .senegal{
+           padding-left: 70px; 
+        }
+        .sentex{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .ghana{
+            padding-left: 70px;
+        }
+        .ghatex{
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .marruecos{
+            padding-left: 75px;
+        }
+        .martex{
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+        }
+        .camerun{
+            padding-left: 70px;
+        }
+        .camtex{
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+        }
+        .tunez{
+            padding-left: 70px;
+        }
+        .tuntex{
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
         footer{
             width: 100%;
             padding:2rem 8% ;
-            background-color: #0e0e0e;
+            background-color: black;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -413,7 +477,7 @@
           
     .brasil{
         position: absolute ;
-        top: 35%;
+        top: 7%;
         padding-left: 50px;
     }
     .bratex{
@@ -423,7 +487,7 @@
     }
     .argentina{
         position: absolute ;
-        top: 35%;
+        top: 7%;
         padding-left: 55px;
     }
     .argtex{
@@ -434,7 +498,7 @@
     }
     .ecuador{
         position: absolute ;
-        top: 35%;
+        top: 7%;
         padding-left: 55px;
     }
     .ecutex{
@@ -445,7 +509,7 @@
     }
     .uruguay{
         position: absolute ;
-        top: 50%;
+        top: 7%;
         padding-left: 50px;
     }
     .urutex{
@@ -598,5 +662,118 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+}
+@media screen and (max-width:320px){
+    .titulos{
+        padding-left: 200px;
+
+    }
+    .titulodos{
+       padding-left: 200px;
+    }
+    .titulotres{
+        padding-left: 200px;
+    }
+    .afc{
+        padding-left: 200px;
+    }
+    header{
+       width: 580px;
+    }
+    .pie-pagina{
+        height: 600px;
+        width: 580px;
+    }
+    .grid{
+        width: 550px;
+    }
+    .griddos{
+        width: 550px;
+    }
+    .gridtres{
+        width: 550px;
+    }
+    .marruecos{
+        position: absolute ;
+        top: 8%;
+        transform: translatex(-50px);
+    }
+    .martex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .senegal{
+        position: absolute ;
+        top: 8%;
+        transform: translatex(-45px); 
+    }
+    .camerun{
+        position: absolute ;
+        top: 8%;
+        transform: translatex(-45px);  
+    }
+    .tunez{
+        position: absolute ;
+        top: 8%;
+        transform: translatex(-45px); 
+    }
+    .ghana{
+        position: absolute ;
+        top: 30%;
+        transform: translatex(-45px); 
+    }
+    .Alemania{
+        transform: translateX(25px);
+    }
+    .Dinamarca{
+     transform: translateX(25px);
+    }
+    .Francia{
+        transform: translateX(25px);
+    }
+    .Belgica{
+        transform: translateX(25px);
+    }
+    .Croacia{
+        transform: translateX(25px);
+    }
+    .España{
+        transform: translateX(25px);
+    }
+    .serbia{
+        transform: translateX(25px);
+    }
+    .inglaterra{
+        transform: translateX(25px);
+    }
+    .suiza{
+        transform: translateX(25px);
+    }
+    .pbajos{
+        transform: translateX(25px)
+    }
+    .portugal{
+        
+        transform: translateX(25px);
+    }
+    .polonia{
+        transform: translateX(25px);
+    }
+    .esc{
+        transform: translateX(25px);
+    }
+    .brasil{
+        transform: translateX(-25px);
+    }
+    .argentina{
+        transform: translateX(-25px);
+    }
+    .uruguay{
+        transform: translateX(-25px);
+    }
+    .ecuador{
+        transform: translateX(-25px);
     }
 }
