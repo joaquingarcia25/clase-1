@@ -68,6 +68,9 @@ body{
                 border: solid 0px;
                 left: 350px;
             }
+            .horario-a{
+                background-color: rgb(70, 1, 1);
+            }
             .grupob{
                 background-color: white;
                 border-radius: 6px;
@@ -75,7 +78,8 @@ body{
                 text-align: center;
                 border: solid 0px;
                 position: relative;
-                left: 350px;    
+                left: 350px; 
+                
             }
             .grupoc{
                 background-color: white;
@@ -84,7 +88,7 @@ body{
                 text-align: center;
                 border: solid 0px;
                 position: relative;
-                left: 350px;    
+                left: 350px;   
             }
             .grupod{
                 background-color: white;
@@ -93,7 +97,7 @@ body{
                 text-align: center;
                 border: solid 0px;
                 position: relative;
-                left: 350px;    
+                left: 350px;
             }
             .grupoe{
                 background-color: white;
@@ -111,7 +115,7 @@ body{
                 text-align: center;
                 border: solid 0px;
                 position: relative;
-                left: 350px;    
+                left: 350px;  
             }
             .grupog{
                 background-color: white;
@@ -132,11 +136,12 @@ body{
                 left: 350px;    
             }
             th{
-                padding: 10px;
+                padding: 30px;
             }
             th, td{
-                padding: 14px;
+                padding: 10px;
                 border: solid 0px;
+
             }
             footer{
                 width: 100%;

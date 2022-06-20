@@ -223,4 +223,7 @@ color: white;
         .itatex{
             transform: translateX(340px);
         }
+        .titulo2{
+            transform: translateX(350px);
+        }
     }

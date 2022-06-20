@@ -143,10 +143,12 @@
     }
     .header{
         width: 970px;
+        min-height: 150px;
     }
     #video{
-       position: relative;
-       left: 260px;
+      position: relative;
+      left: 260px;
+      height: 300px;
     }
     #resultados{
         text-align: center;
