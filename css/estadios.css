@@ -15,7 +15,7 @@ body{
     #titulo{
 color: white;
     font-family:'Roboto Slab', serif;
-    padding-left: 50px;
+    
     }
 
     #nav{
@@ -195,7 +195,7 @@ color: white;
            text-align: start;
         }
         .pie-pagina{
-            width:800px ;
+            width:100% ;
         }
     }
     @media screen and (max-width:1024px){
@@ -205,43 +205,25 @@ color: white;
     }
     @media screen and (max-width:320px) {
         header{
-            width: 800px;
+            width: 100%;
+            min-height: 200px;
         }
-        .titulo2{
+        #titulo{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 10px;
+        }
+        #navitem{
+            display: flex;
+            flex-direction: row;
+        }
+        .col:nth-child(even){
+            margin-right: 50px;
+        }
+        .col{
             position: relative;
-            left: 200px;
-        }
-        .titulo-lusail{
-            position: relative;
-            left: 200px;
-        }
-        .titulo-974{
-           position: relative;
-           left: 200px;
-        }
-        .titulo-albayt{
-        position: relative;
-        left: 200px;
-        }
-        .titulo-fundacion{
-       position: relative;
-       left: 200px;
-        }
-        .titulo-aljanoub{
-         position: relative;
-         left: 200px;
-        }
-        .titulo-bin{
-          position: relative;
-          left: 200px;
-        }
-        .titulo-khalifa{
-          position: relative;
-          left: 200px;
-        }
-        .titulo-thumama{
-            position: relative;
-            left: 200px;
+            right: 200px;
         }
     }
        

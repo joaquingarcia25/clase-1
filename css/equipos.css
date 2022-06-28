@@ -60,7 +60,6 @@
             .titulotres{
                 color: white;
                 text-align: center;
-                transform: translatey(-200px);
             }
             .grid_bra{
                 background-color: darkblue;
@@ -75,76 +74,58 @@
                 background-color: yellow;
             }
         .qatar{
-            transform: translateX(100px);
-            position: relative;
-            top: 5%;
+            padding-left: 110px;
         }
         .qatex{
             text-align: center;
             color: black;
         }    
         .argentina{
-            transform: translateX(100px);
-            position: relative;
-            top: 5%;
+            padding-left: 105px;
         }    
         .argtex{
             text-align: center;
         }
         .brasil{
-            position: relative;
-            top: 5%;
-            transform: translateX(100px);
+            padding-left: 105px;
         }
         .bratex{
            text-align: center;
         }
         .uruguay{
-            position: relative;
-            top: 5%;
-            transform: translateX(100px);
+            padding-left: 105px;
         }
         .urutex{
            text-align: center;
         }
         .ecuador{
-            position: relative;
-            top: 5%;
-            transform: translateX(100px);   
+            padding-left: 105px;
         }
         .ecutex{
             text-align: center;
             color: black;
         }
         .australia{
-            transform: translateX(100px);
-            position: relative;
-            top: 5%;
+            padding-left: 105px;
         }
         .austex{
             color: black;
             text-align: center;
         }
         .marruecos{
-            transform: translateX(100px);
-            position: relative;
-            top: 5%;
+            padding-left: 105px;
         }
         .martex{
             text-align: center;
         }
         .gales{
-            transform: translateX(100px);
-            position: relative;
-            top: 5%;
+            padding-left: 105px;
         }
         .galtex{
             text-align: center;
         }
         .costa{
-            transform: translateX(100px);
-            position: relative;
-            top: 5%;
+            padding-left: 105px;
         }
         .costex{
            text-align: center;
@@ -154,86 +135,66 @@
             text-align: center;
         }
         .ghana{
-            transform: translateX(100px);
-            position: relative;
-            top: 5%;
+            padding-left: 105px;
         }
         .ghatex{
             color: black;
             text-align: center;
         }
         .tunez{
-            transform: translateX(100px);
-            position: relative;
-            top: 5%;
+            padding-left: 105px;
         }
         .tuntex{
             color: black;
             text-align: center;
         }
         .camerun{
-            transform: translateX(100px);
-            position: relative;
-            top: 5%;
+            padding-left: 105px;
         }
         .camtex{
             text-align: center;
         }
         .iran{
-            transform: translateX(100px);
-            position: relative;
-            top: 5%;
+            padding-left: 105px;
         }
         .iratex{
             color: black;
             text-align: center;
         }
         .japon{
-            transform: translateX(100px);
-            position: relative;
-            top: 5%;
+            padding-left: 105px;
         }
         .japtex{
             text-align: center;
         }
         .corea{
-            transform: translateX(100px);
-            position: relative;
-            top: 5%;
+            padding-left: 105px;
         }
         .cortex{
             color: black;
             text-align: center;
         }
         .arabia{
-            transform: translateX(100px);
-            position: relative;
-            top: 5%;
+            padding-left: 105px;
         }
         .aratex{
             text-align: center;
         }
         .canada{
-            transform: translateX(100px);
-            position: relative;
-            top: 5%;
+            padding-left: 105px;
         }
         .cantex{
             text-align: center;
         }
         .usa{
-            transform: translateX(105px);
-            position: relative;
-            top: 5%;
+            padding-left: 105px;
         }
         .usatex{
             text-align: center;
             color: black;
         }
         .mexico{
-            transform: translateX(100px);
-            position: relative;
-            top: 5%;
+            padding-left: 105px;
         }
         .mextex{
             text-align: center;
@@ -255,181 +216,143 @@
         }
         .gridseis{
             background-color: black;
-            transform: translateY(-150px);
         }
         .gridsiete{
             background-color: darkred;
-            transform: translateY(-150px); 
         }
         .gridocho{
             background-color: darkblue;
-            transform: translateY(-150px);
         }
         .gridnueve{
             background-color: yellow;
-            transform: translateY(-150px); 
         }
         .gridiez{
             background-color: white;
-            transform: translateY(-150px); 
         }
         .gridonce{
             background-color: red;
-            transform: translateY(-150px);
         }
         .gridtrece{
             background-color: white;
-            transform: translateY(-150px); 
         }
         .gridoce{
             background-color: darkred;
-            transform: translateY(-150px);
         }
         .gridcatorce{
             background-color: red;
-            transform: translateY(-150px);
         }
         .gridquince{
             background-color: orangered;
-            transform: translateY(-150px);
         }
         .grid_dseis{
             background-color: darkred;
-            transform: translateY(-150px);
         }
         .grid_dsiete{
-            background-color: white;
-            transform: translateY(-150px); 
+            background-color: white; 
         }
         .grid_docho{
             background-color: rgb(3, 3, 3);
-            transform: translateY(-150px);
         }
         .grid_arg{
             background-color: lightblue;
         }
         .Alemania{
-            position: absolute ;
-            top: 5%;
-            transform: translatex(105px);
+            padding-left: 105px;
         }
         .aletex{
-            position: relative;
-            top: 60px;
-            text-align: center;
+            display: flex;
+        justify-content: center;
+        align-items: center;
         }
         .Dinamarca{
-            position: absolute ;
-            top: 5%;
-            transform: translatex(105px);
+            padding-left: 105px;
         }
         .dintex{
-            position: relative;
-            top: 60px;
-            text-align: center;
+            display: flex;
+        justify-content: center;
+        align-items: center;
         }
         .Francia{
-            position: absolute ;
-            top: 5%;
-            transform: translatex(105px);
+            padding-left: 105px;
         }
         .fratex{
-            position: relative;
-            top: 60px;
-            text-align: center;
+            display: flex;
+        justify-content: center;
+        align-items: center;
         }
         .Belgica{
-            position: absolute ;
-            top: 5%;
-            transform: translatex(105px);
+            padding-left: 105px; 
         }
         .beltex{
-            position: relative;
-            top: 60px;
-            text-align: center;
-            color: black;
+            display: flex;
+        justify-content: center;
+        align-items: center;
         }
         .Croacia{
-            position: absolute ;
-            top: 5%;
-            transform: translatex(105px);
+            padding-left: 105px;
         }
         .crotex{
-            position: relative;
-            top: 60px;
-            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             color: black;
         }
         .España{
-            position: absolute ;
-            top: 5%;
-            transform: translatex(105px);
+            padding-left: 105px;
         }
         .esptex{
-            position: relative;
-            top: 60px;
-            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         .serbia{
-            position: absolute ;
-            top: 5%;
-            transform: translatex(105px);
+            padding-left: 105px;
         }
         .sertex{
-            position: relative;
-            top: 60px;
-            text-align: center;
+            display: flex;
+        justify-content: center;
+        align-items: center;
         }
         .inglaterra{
-            position: absolute ;
-            top: 5%;
-            transform: translatex(105px);
+            padding-left: 105px;
         }
         .ingtex{
-            position: relative;
-            top: 60px;
-            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             color: black;
         }
         .suiza{
-            position: absolute ;
-            top: 5%;
-            transform: translatex(105px);
+            padding-left: 105px;
         }
         .suitex{
-            position: relative;
-            top: 60px;
-            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         .pbajos{
-            position: absolute ;
-            top: 5%;
-            transform: translatex(105px);
+            padding-left: 105px;
         }
         .pbajostex{
-            position: relative;
-            top: 60px;
-            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         .portugal{
-            position: absolute ;
-            top: 5%;
-            transform: translatex(105px);
+            padding-left: 105px;
         }
         .portex{
-            position: relative;
-            top: 60px;
-            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         .polonia{
-            position: absolute ;
-            top: 5%;
-            transform: translatex(105px);
+            padding-left: 105px;
         }
         .poltex{
-            position: relative;
-            top: 60px;
-            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             color: black;
         }
         .grid_sen{
@@ -802,74 +725,305 @@
 }
 @media screen and (max-width:320px){
     .titulos{
-        transform: translateX(250px);
+        font-size: 15px;
+        padding-right: 20px;
     }
     header{
-       width: 800px;
+       width: 100%;
+       min-height: 200px;
+    }
+    #navlist{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
     }
     .pie-pagina{
-        height: 600px;
-        width: 800px;
+        width: 100%;
     }
     .griddos{
-        width: 780px;
+        width: 100%;
     }
     .Alemania{
-        transform: translateX(50px);
+        margin: 0px;
+        margin-top: 550px;
+        transform: translateX(-100px);
     }
     .Dinamarca{
-     transform: translateX(50px);
+        margin: 0px;
+        margin-top: 550px;
+        transform: translateX(-100px);
     }
     .Francia{
-        transform: translateX(50px);
+       margin: 0px;
+       margin-top: 550px;
+       transform: translateX(-100px);
     }
     .Belgica{
-        transform: translateX(50px);
+        margin: 0px;
+        margin-top: 550px;
+        transform: translateX(-100px);
+    }
+    .beltex{
+        color: white;
     }
     .Croacia{
-        transform: translateX(50px);
+       transform: translateX(-100px); 
+       margin-top: 710px;
+    }
+    .crotex{
+        color: white;
     }
     .España{
-        transform: translateX(50px);
+        margin-top: 710px;
+        transform: translateX(-100px);
     }
     .serbia{
-        transform: translateX(50px);
+      margin-top: 710px;
+      transform: translateX(-100px);
     }
     .inglaterra{
-        transform: translateX(50px);
+      margin-top: 710px;
+      transform: translateX(-100px);
+    }
+    .ingtex{
+        color: white;
     }
     .suiza{
-        transform: translateX(50px);
-    }
+      margin-top: 870px;  
+      transform: translateX(-100px); 
+     }
     .pbajos{
-        transform: translateX(50px)
+        margin-top: 870px;
+        transform: translateX(-100px);
     }
     .portugal{
-        
-        transform: translateX(50px);
+       margin-top: 870px;
+       transform: translateX(-100px);
     }
     .polonia{
-        transform: translateX(50px);
+        margin-top: 870px;
+        transform: translateX(-100px);
+    }
+    .poltex{
+        color: white;
     }
     .esc{
-        transform: translateX(50px);
+     position: relative;
+     right: 50px;   
+    }
+    .qatar{
+        transform: translateX(-50px);
+    } 
+    .qatex{
+        color: white;
     }
     .brasil{
-        transform: translateX(-25px);
+     position: relative;
+     right: 178px;
     }
     .argentina{
-        transform: translateX(-25px);
+     position: relative;
+     right: 125px;
     }
     .uruguay{
-        transform: translateX(-25px);
+       position: relative;
+       right: 175px;
+    }
+    .urutex{
+        color: white;
     }
     .ecuador{
-        transform: translateX(100px);
+      position: relative;
+      right: 100px;
+    }
+    .ecutex{
+        color: white;
+    }
+    .australia{
+        position: relative;
+        right: 175px;
+    }
+    .austex{
+        color: white;
+    }
+    .gales{
+        position: relative;
+        right: 175px;
+    }
+    .costa{
+        position: relative;
+        right: 175px;
+    }
+    .costex{
+        color: white;
+    }
+    .senegal{
+        position: relative;
+        right: 70px;
+    }
+    .ghana{
+        position: relative;
+        right: 175px;
+    }
+    .ghatex{
+        color: white;
+    }
+    .marruecos{
+        position: relative;
+        right: 175px;
+    }
+    .tunez{
+        position: relative;
+        right: 175px;
+    }
+    .tuntex{
+        color: white;
+    }
+    .camerun{
+        position: relative;
+        right: 175px;
+    }
+    .iran{
+        position: relative;
+        right: 175px;
+    }
+    .iratex{
+        color: white;
+    }
+    .japon{
+        position: relative;
+        right: 175px;
+    }
+    .corea{
+        position: relative;
+        right: 175px;
+    }
+    .cortex{
+        color: white;
+    }
+    .arabia{
+        position: relative;
+        right: 175px;
+    }
+    .canada{
+        position: relative;
+        right: 175px;
+    }
+    .usa{
+        position: relative;
+        right: 175px;
+    }
+    .usatex{
+        color: white;
+    }
+    .mexico{
+        position: relative;
+        right: 175px;
+    }
+    .grid_ara{
+      background-color: transparent;
+    }
+    .grid_arg{
+        background-color: transparent;
+    }
+    .grid_aus{
+        background-color: transparent;
+    }
+    .grid_bra{
+        background-color: transparent;
+    }
+    .grid_cam{
+        background-color: transparent;
+    }
+    .grid_can{
+        background-color: transparent;
+    }
+    .grid_cor{
+        background-color: transparent;
+    }
+    .grid_cos{
+        background-color: transparent;
+    }
+    .grid_docho{
+        background-color: transparent;
+    }
+    .grid_dseis{
+        background-color: transparent;
+    }
+    .grid_dsiete{
+        background-color: transparent;
+    }
+    .grid_ecu{
+        background-color: transparent;
+    }
+    .grid_gal{
+        background-color: transparent;
+    }
+    .grid_gha{
+        background-color: transparent;
+    }
+    .grid_ira{
+        background-color: transparent;
+    }
+    .grid_jap{
+        background-color: transparent;
+    }
+    .grid_mar{
+        background-color: transparent;
+    }
+    .grid_mex{ 
+        background-color: transparent;
+    }
+    .grid_qat{
+        background-color: transparent;
+    }
+    .grid_sen{
+        background-color: transparent;
+    }
+    .grid_tun{
+        background-color: transparent;
+    }
+    .grid_uru{
+        background-color: transparent;
+    }
+    .grid_usa{
+        background-color: transparent;
+    }
+    .gridcatorce{
+        background-color: transparent;
+    }
+    .gridiez{
+        background-color: transparent;
+    }
+    .gridnueve{
+        background-color: transparent;
+    }
+    .gridoce{
+        background-color: transparent;
+    }
+    .gridocho{
+        background-color: transparent ;
+    }
+    .gridonce{
+        background-color: transparent;
+    }
+    .gridquince{
+        background-color: transparent;
+    }
+    .gridseis{
+        background-color: transparent;
+    }
+    .gridsiete{
+        background-color: transparent;
+    }
+    .gridtrece{
+        background-color: transparent;
     }
 }
 @media screen and (max-width:1024px){
     .qatar{
-        transform: translateX(75px);
+      padding-left: 75px;
     }
     .argentina{
         transform: translateX(75px);

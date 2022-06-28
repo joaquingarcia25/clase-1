@@ -63,12 +63,10 @@ body{
                 border-radius: 6px;
                 border-collapse: collapse;
                 text-align: center;
-                position: relative;
                 border: solid 0px;
-                left: 350px;
-            }
-            .horario-a{
-                background-color: rgb(70, 1, 1);
+                margin-bottom: 50px;
+                margin: 50px;
+                margin-left: 430px;
             }
             .grupob{
                 background-color: white;
@@ -76,9 +74,9 @@ body{
                 border-collapse: collapse;
                 text-align: center;
                 border: solid 0px;
-                position: relative;
-                left: 350px; 
-                
+                margin-bottom: 50px;
+                margin: 50px;
+                margin-left: 430px;
             }
             .grupoc{
                 background-color: white;
@@ -86,8 +84,9 @@ body{
                 border-collapse: collapse;
                 text-align: center;
                 border: solid 0px;
-                position: relative;
-                left: 350px;   
+                margin-bottom: 50px;
+                margin: 50px;
+                margin-left: 430px;
             }
             .grupod{
                 background-color: white;
@@ -95,8 +94,9 @@ body{
                 border-collapse: collapse;
                 text-align: center;
                 border: solid 0px;
-                position: relative;
-                left: 350px;
+                margin-bottom: 50px;
+                margin: 50px;
+                margin-left: 430px;
             }
             .grupoe{
                 background-color: white;
@@ -104,8 +104,9 @@ body{
                 border-collapse: collapse;
                 text-align: center;
                 border: solid 0px;
-                position: relative;
-                left: 350px;    
+                margin-bottom: 50px;
+                margin: 50px;
+                margin-left: 430px;
             }
             .grupof{
                 background-color: white;
@@ -113,8 +114,9 @@ body{
                 border-collapse: collapse;
                 text-align: center;
                 border: solid 0px;
-                position: relative;
-                left: 350px;  
+                margin-bottom: 50px;
+                margin: 50px;
+                margin-left: 430px;
             }
             .grupog{
                 background-color: white;
@@ -122,8 +124,9 @@ body{
                 border-collapse: collapse;
                 text-align: center;
                 border: solid 0px;
-                position: relative;
-                left: 350px;    
+                margin-bottom: 50px;
+                margin: 50px;
+                margin-left: 430px;
             }
             .grupoh{
                 background-color: white;
@@ -131,8 +134,9 @@ body{
                 border-collapse: collapse;
                 text-align: center;
                 border: solid 0px;
-                position: relative;
-                left: 350px;    
+                margin-bottom: 50px;
+                margin: 50px;
+                margin-left: 430px;
             }
             th{
                 padding: 30px;
@@ -211,44 +215,160 @@ body{
         }
         @media screen and (max-width:768px){
             header{
-                width: 930px;
+                width: 100%;
             }
             .titulo2{
-                position: relative;
-                left: 100px;
+              padding: 50px; 
             }
             .grupoa{
-                transform: translateX(-150px);
+                margin: 0px;
+                margin-left: 150px;
+                margin-top: 20px;
             }
             .grupob{
-                transform: translateX(-150px);
+                margin: 0px;
+                margin-left: 150px;
+                margin-top: 20px;
             }
             .grupoc{
-                transform: translateX(-150px);
+                margin: 0px;
+                margin-left: 150px;
+                margin-top: 20px;
             }
             .grupod{
-                transform: translateX(-150px);
+                margin: 0px;
+                margin-left: 150px;
+                margin-top: 20px;
             }
             .grupoe{
-                transform: translateX(-150px);
+                margin: 0px;
+                margin-left: 150px;
+                margin-top: 20px;
             }
             .grupof{
-                transform: translateX(-150px);
+                margin: 0px;
+                margin-left: 150px;
+                margin-top: 20px;
             }
             .grupog{
-                transform: translateX(-150px);
+                margin: 0px;
+                margin-left: 150px;
+                margin-top: 20px;
             }
             .grupoh{
-                transform: translateX(-150px);
+                margin: 0px;
+                margin-left: 150px;
+                margin-top: 20px;
             }
             .pie-pagina{
-                width: 930px;
+                width: 100%;
             }
         }
         @media screen and (max-width:320px){
             .titulo2{
+               display: flex;
+               justify-content: start;
+               align-items: flex-start;
+               font-size: 18px;
+            }
+            header{
+                width: 100%;
+                min-height: 200px;
+            }
+            .pie-pagina{
+                width: 100%;
+            }
+            #navlist{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-size: 10px;
+            }
+            #titulo{
+                width: 10px;
+            }
+            .grupoa{
+               position: relative;
+               right: 270px;
+            }
+            .grupob{
                 position: relative;
-                left: 300px;
+                right: 270px;
+            }
+            .grupoc{
+                position: relative;
+                right: 270px;
+            }
+            .grupod{
+                position: relative;
+                right: 270px;
+            }
+            .grupoe{
+                position: relative;
+                right: 270px;
+            }
+            .grupof{
+                position: relative;
+                right: 270px;
+            }
+            .grupog{
+                position: relative;
+                right: 270px;
+            }
+            .grupoh{
+                position: relative;
+                right: 270px;
+            }
+            .ceros{
+                display: none;
+            }
+            .titulo2{
+                padding:50px;
+            }
+        }
+        @media screen and (max-width:1024px){
+            .titulo2{
+                padding: 50px;
+            }
+            .grupoa{
+                margin: 0px;
+                margin-left: 300px;
+                margin-bottom: 100px;
+            }
+            .grupob{
+                margin: 0px;
+                margin-left: 300px;
+                margin-bottom: 100px;
+            }
+            .grupoc{
+                margin: 0px;
+                margin-left: 300px;
+                margin-bottom: 100px;
+            }
+            .grupod{
+                margin: 0px;
+                margin-left:300px;
+                margin-bottom: 100px;
+            }
+            .grupoe{
+                margin: 0px;
+                margin-left: 300px;
+                margin-bottom: 100px;
+            }
+            .grupof{
+                margin: 0px;
+                margin-left: 300px;
+                margin-bottom: 100px;
+            }
+            .grupog{
+                margin: 0px;
+                margin-left: 300px;
+                margin-bottom: 100px;
+            }
+            .grupoh{
+                margin: 0px;
+                margin-left: 300px;
+                margin-bottom: 100px;
             }
         }
             
